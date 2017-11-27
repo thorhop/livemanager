@@ -27,6 +27,7 @@ prompt.get('path', function (err, result) {
         console.log('Clip name: ' + $(this).find('Name').attr("value") + '\n');
         $(this).find('KeyTrack').each(function(i){
           console.log('  Key: ' + $(this).find('MidiKey').attr("value"));
+          console.log('  Frame: ' + $(this).find('MidiNoteEvent').attr("time"));
           console.log('\n');
         });
       })
