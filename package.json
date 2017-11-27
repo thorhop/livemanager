@@ -1,0 +1,21 @@
+{
+  "name": "livemanager",
+  "version": "1.0.0",
+  "description": "Project manager for Ableton Live project files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ableton",
+    "parser",
+    "als",
+    "spreadsheet"
+  ],
+  "author": "thorhop",
+  "license": "MIT",
+  "dependencies": {
+    "ableton": "0.0.8",
+    "prompt": "^1.0.0"
+  }
+}
