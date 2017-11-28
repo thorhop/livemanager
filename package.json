@@ -16,6 +16,7 @@
   "license": "MIT",
   "dependencies": {
     "ableton": "0.0.8",
+    "music-helper": "^1.0.1",
     "prompt": "^1.0.0"
   }
 }
